@@ -1,0 +1,17 @@
+.stat-badge {
+  display: inline-flex;
+  gap: var(--spacing-sm);
+  background-color: var(--color-background);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.stat-label {
+  color: var(--color-text-muted);
+}
+
+.stat-value {
+  font-weight: bold;
+  color: var(--color-text);
+}
